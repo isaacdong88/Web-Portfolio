@@ -262,7 +262,7 @@ const projects = [
   },
 ];
 
-export default {
+export {
   navLinks,
   services,
   technologies,
