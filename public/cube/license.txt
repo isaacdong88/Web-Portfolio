@@ -1,0 +1,11 @@
+Model Information:
+* title:	RGB Color Space 949 Most Common Colors XKCD
+* source:	https://sketchfab.com/3d-models/rgb-color-space-949-most-common-colors-xkcd-b46531f6db504ef1894d6a2a71a743d6
+* author:	dudecon (https://sketchfab.com/dudecon)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "RGB Color Space 949 Most Common Colors XKCD" (https://sketchfab.com/3d-models/rgb-color-space-949-most-common-colors-xkcd-b46531f6db504ef1894d6a2a71a743d6) by dudecon (https://sketchfab.com/dudecon) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
