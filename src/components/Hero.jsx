@@ -5,7 +5,7 @@ import CubeCanvas from "./canvas/Cube";
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-[90vh] mx-auto sm:flex flex-wrap">
+    <section className="relative w-full h-[90vh] mx-auto">
       <div
         className={`${styles.paddingX} sm:absolute relative inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}
       >
