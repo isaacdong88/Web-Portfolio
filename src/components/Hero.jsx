@@ -5,9 +5,9 @@ import CubeCanvas from "./canvas/Cube";
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen mx-auto">
+    <section className="relative w-full h-[90vh] mx-auto sm:flex flex-wrap">
       <div
-        className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}
+        className={`${styles.paddingX} sm:absolute relative inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}
       >
         <div className="flex flex-col justify-center items-center mt-5">
           <div className="w-5 h-5 rounded-full bg-[#915eff]" />
@@ -15,6 +15,7 @@ const Hero = () => {
         </div>
         <div>
           <h1 className={`${styles.heroHeadText}`}> I'm Isaac</h1>
+          <p className={`${styles.heroSubText}`}>A Software Engineer</p>
         </div>
       </div>
       <CubeCanvas />

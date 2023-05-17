@@ -4,17 +4,17 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Cube = () => {
-  const cube = useGLTF("./cube/scene.gltf");
+  const cube = useGLTF("./planet/scene.gltf");
   return (
     <mesh>
       <hemisphereLight intensity={0.35} groundColor="black" />
-      <pointLight intensity={2} />
+      <pointLight intensity={5} />
       <spotLight position={[-40, 30, 10]} />
       <primitive
         object={cube.scene}
-        scale={0.1}
-        position={[10, -20, -20]}
-        rotation={[1, 1, 1]}
+        scale={5}
+        position={[0, 0, 0]}
+        rotation={[0, 0, 0]}
       />
     </mesh>
   );
@@ -26,7 +26,7 @@ const CubeCanvas = () => {
       frameloop="demand"
       dpr={[1, 2]}
       shadows
-      camera={{ position: [80, -30, -30], fov: 70 }}
+      camera={{ position: [30, 10, 10], fov: 30 }}
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
